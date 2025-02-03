@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="logos"/>
+  <qresource prefix="ejercicios">
+    <file>kaldo.jpg</file>
+    <file>wero.jpg</file>
+    <file>elyochi.jpg</file>
+  </qresource>
+</RCC>
