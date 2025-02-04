@@ -13,34 +13,31 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(157, 159, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="imagen">
     <property name="geometry">
      <rect>
       <x>140</x>
       <y>160</y>
-      <width>491</width>
-      <height>401</height>
+      <width>261</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true"/>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/elyochi.jpg</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ejercicios/elyochi.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>30</y>
+      <x>130</x>
+      <y>20</y>
       <width>251</width>
       <height>131</height>
      </rect>
@@ -53,7 +50,7 @@
      </font>
     </property>
     <property name="text">
-     <string>pixmap</string>
+     <string>rich text</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

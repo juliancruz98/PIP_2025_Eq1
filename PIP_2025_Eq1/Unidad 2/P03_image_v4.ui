@@ -13,14 +13,17 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 0);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="imagen">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>280</x>
       <y>160</y>
-      <width>641</width>
-      <height>371</height>
+      <width>281</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -29,18 +32,31 @@
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ejercicios/elyochi.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>20</y>
+      <x>20</x>
+      <y>170</y>
       <width>251</width>
       <height>131</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
      <string>image</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
