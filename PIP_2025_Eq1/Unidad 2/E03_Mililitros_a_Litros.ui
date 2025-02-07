@@ -109,6 +109,7 @@ background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -156,6 +157,7 @@ border:  5px solid black;
     </property>
     <property name="font">
      <font>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>

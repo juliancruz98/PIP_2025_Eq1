@@ -6,24 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1116</width>
-    <height>810</height>
+    <width>788</width>
+    <height>625</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(149, 255, 229);</string>
+   <string notr="true">
+background-color: rgb(29, 183, 230);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="imagen">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>30</y>
-      <width>221</width>
-      <height>181</height>
+      <x>10</x>
+      <y>20</y>
+      <width>191</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -39,13 +40,83 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>240</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Contador</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_temporizador">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>290</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;
+border:  5px solid black;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imagen_2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>191</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <widget class="QLabel" name="imagen_3">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>480</y>
-      <width>251</width>
-      <height>221</height>
+      <x>560</x>
+      <y>400</y>
+      <width>191</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -61,141 +132,23 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QDial" name="dial">
+   <widget class="QPushButton" name="btn_temporizar">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>310</y>
-      <width>241</width>
-      <height>281</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>450</x>
+      <x>550</x>
       <y>280</y>
-      <width>171</width>
-      <height>31</height>
+      <width>191</width>
+      <height>71</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>METROS:</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="txt_metros">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>330</y>
-      <width>321</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 15px;
-background-color: rgb(255, 255, 255);
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:20px;
 border:  5px solid black;
 </string>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>820</x>
-      <y>30</y>
-      <width>221</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="txt_kms">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>460</y>
-      <width>321</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-radius: 15px;
-background-color: rgb(255, 255, 255);
-border:  5px solid black;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>410</y>
-      <width>231</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>KILOMETROS:</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <string>Temporizar</string>
     </property>
    </widget>
   </widget>
@@ -204,7 +157,7 @@ border:  5px solid black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1116</width>
+     <width>788</width>
      <height>26</height>
     </rect>
    </property>

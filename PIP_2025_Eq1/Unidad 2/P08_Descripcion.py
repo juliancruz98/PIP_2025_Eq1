@@ -14,8 +14,26 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.SelectorImagen.setSingleStep(1)
         self.SelectorImagen.setValue(1)
 
+        self.diccionarDatos = {
+            0: (":/ejercicios/elyochi.jpg",["MetalSonic","Meme","Erizo"]),
+            1: (":/ejercicios/kaldo.jpg", ["grinchazul", "Meme", "chango"]),
+            2: (":/ejercicios/wero.jpg", ["bobesponja", "Meme", "esponja"])
+        }
+
+        self.indice = 0
+        self.obtenerDatos()
 
     #Area de los slots
+    def obtenerDatos(self):
+        nombre = self.diccionarDatos[self.indice][1][0]
+        contexto = self.diccionarDatos[self.indice][1][1]
+        numero = self.diccionarDatos[self.indice][1][2]
+        self.txt_NombreIma.setText(nombre)
+        self.txt_ContexIma.setText(contexto)
+        self.txt_N.setText(numero)
+        print(nombre)
+        print(contexto)
+        print(numero)
 
     def cambiaValor(self):
         value = self.SelectorImagen.value()
