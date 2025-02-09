@@ -6,22 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>716</width>
-    <height>506</height>
+    <width>1097</width>
+    <height>661</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(170, 0, 255);</string>
+   <string notr="true">background-color: rgb(170, 170, 127);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_Calcular">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>330</y>
+      <x>380</x>
+      <y>470</y>
       <width>261</width>
       <height>81</height>
      </rect>
@@ -29,13 +29,13 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>10</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(129, 243, 255);
+     <string notr="true">background-color: rgb(170, 255, 127);
 border-radius: 25px;
 border:  5px solid black;</string>
     </property>
@@ -46,8 +46,8 @@ border:  5px solid black;</string>
    <widget class="QLineEdit" name="txt_X1">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>70</y>
+      <x>200</x>
+      <y>170</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -58,16 +58,16 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
-border-radius:10px;
+     <string notr="true">background-color: rgb(255, 170, 0);
+border-radius: 15px;
 border:  5px solid black;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_Y1">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>70</y>
+      <x>610</x>
+      <y>170</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -78,16 +78,16 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
-border-radius:10px;
+     <string notr="true">background-color: rgb(255, 170, 0);
+border-radius: 15px;
 border:  5px solid black;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_X2">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>240</y>
+      <x>200</x>
+      <y>340</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -98,16 +98,16 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
-border-radius:10px;
+     <string notr="true">background-color: rgb(255, 170, 0);
+border-radius: 15px;
 border:  5px solid black;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_Y2">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>240</y>
+      <x>620</x>
+      <y>340</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -118,17 +118,35 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
-border-radius:10px;
+     <string notr="true">background-color: rgb(255, 170, 0);
+border-radius: 15px;
 border:  5px solid black;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>10</y>
-      <width>421</width>
+      <x>230</x>
+      <y>110</y>
+      <width>601</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;INGRESA LOS SIGUIENTES VALORES&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>180</y>
+      <width>61</width>
       <height>41</height>
      </rect>
     </property>
@@ -140,42 +158,105 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="text">
-     <string>Ingresa los valores X1 y Y1</string>
+     <string> Y1:</string>
     </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>350</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> Y2:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>350</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> X2:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>180</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string> X1:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>160</y>
-      <width>381</width>
+      <x>220</x>
+      <y>20</y>
+      <width>601</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>Ingresa los valores X2 y Y2</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CALCULAR PUNTO MEDIO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
+   <zorder>label_4</zorder>
+   <zorder>label_3</zorder>
+   <zorder>btn_Calcular</zorder>
+   <zorder>txt_X1</zorder>
+   <zorder>txt_Y1</zorder>
+   <zorder>txt_X2</zorder>
+   <zorder>txt_Y2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>716</width>
+     <width>1097</width>
      <height>26</height>
     </rect>
    </property>

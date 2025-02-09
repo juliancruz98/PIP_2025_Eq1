@@ -6,21 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>451</width>
-    <height>344</height>
+    <width>838</width>
+    <height>441</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(170, 85, 255);</string>
+   <string notr="true">background-color: rgb(170, 85, 255);
+background-color: rgb(189, 255, 178);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_Transformar">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>290</x>
       <y>200</y>
       <width>261</width>
       <height>81</height>
@@ -28,14 +29,14 @@
     </property>
     <property name="font">
      <font>
-      <family>Times New Roman</family>
-      <pointsize>10</pointsize>
+      <family>Sylfaen</family>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(129, 243, 255);
+     <string notr="true">background-color: rgb(255, 255, 0);
 border-radius: 25px;
 border:  5px solid black;</string>
     </property>
@@ -46,8 +47,8 @@ border:  5px solid black;</string>
    <widget class="QLineEdit" name="txt_Metros">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>110</y>
+      <x>520</x>
+      <y>100</y>
       <width>261</width>
       <height>61</height>
      </rect>
@@ -58,23 +59,23 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
-border-radius:10px;
+     <string notr="true">background-color: rgb(170, 255, 255);
+border-radius: 15px;
 border:  5px solid black;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>40</y>
-      <width>371</width>
+      <x>60</x>
+      <y>110</y>
+      <width>451</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Times New Roman</family>
+      <family>Palatino Linotype</family>
       <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -84,13 +85,34 @@ border:  5px solid black;</string>
      <string>Ingresa la cantidad de metros a transformar</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>451</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Palatino Linotype</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;CONVERSIÓN DE METROS A PIES&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>451</width>
+     <width>838</width>
      <height>26</height>
     </rect>
    </property>

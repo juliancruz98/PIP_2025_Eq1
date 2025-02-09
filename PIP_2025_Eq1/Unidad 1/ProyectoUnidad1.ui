@@ -7,21 +7,21 @@
     <x>0</x>
     <y>0</y>
     <width>1126</width>
-    <height>808</height>
+    <height>728</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(170, 0, 255);</string>
+   <string notr="true">background-color: rgb(189, 255, 219);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_agregar">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>660</y>
+      <y>560</y>
       <width>301</width>
       <height>81</height>
      </rect>
@@ -38,7 +38,6 @@
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(129, 243, 255);
-color: rgb(0, 0, 0);
 border-radius: 25px;
 border:  5px solid black;</string>
     </property>
@@ -82,7 +81,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -113,7 +112,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -127,8 +126,8 @@ border:  5px solid black;</string>
    <widget class="QPushButton" name="btn_guardar">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>660</y>
+      <x>390</x>
+      <y>560</y>
       <width>311</width>
       <height>81</height>
      </rect>
@@ -145,7 +144,6 @@ border:  5px solid black;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(129, 243, 255);
-color: rgb(0, 0, 0);
 border-radius: 25px;
 border:  5px solid black;</string>
     </property>
@@ -156,8 +154,8 @@ border:  5px solid black;</string>
    <widget class="QPushButton" name="btn_cargar">
     <property name="geometry">
      <rect>
-      <x>780</x>
-      <y>660</y>
+      <x>770</x>
+      <y>560</y>
       <width>301</width>
       <height>81</height>
      </rect>
@@ -174,7 +172,6 @@ border:  5px solid black;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(129, 243, 255);
-color: rgb(0, 0, 0);
 border-radius: 25px;
 border:  5px solid black;</string>
     </property>
@@ -215,7 +212,7 @@ border:  5px solid black;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -226,14 +223,14 @@ border:  5px solid black;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>300</x>
       <y>-20</y>
-      <width>401</width>
-      <height>71</height>
+      <width>451</width>
+      <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;PROYECTO UNIDAD 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;PROYECTO UNIDAD 1 - EQUIPO 01&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -339,7 +336,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -370,7 +367,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -401,7 +398,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -432,7 +429,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -479,7 +476,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>
@@ -510,7 +507,7 @@ border:  5px solid black;</string>
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 0);
+     <string notr="true">background-color: rgb(255, 170, 127);
 border-radius:20px;
 border:  5px solid black;</string>
     </property>

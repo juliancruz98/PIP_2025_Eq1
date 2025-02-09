@@ -89,7 +89,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def mediana(self):
         if not self.valores:
             return 0
-            # Ordenar los valores
+
         self.valores.sort()
         n = len(self.valores)
         if n % 2 == 1:  # Si el número de elementos es impar
