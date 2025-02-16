@@ -1,6 +1,13 @@
 <RCC>
   <qresource prefix="logos"/>
   <qresource prefix="ejercicios">
+    <file>duolingo.jpeg</file>
+    <file>sonicblanco.jpeg</file>
+    <file>cat.jpeg</file>
+    <file>hermanosgold.jpeg</file>
+    <file>mariogold.jpeg</file>
+    <file>samsgoku.jpeg</file>
+    <file>sams.jpeg</file>
     <file>kaldo.jpg</file>
     <file>wero.jpg</file>
     <file>elyochi.jpg</file>

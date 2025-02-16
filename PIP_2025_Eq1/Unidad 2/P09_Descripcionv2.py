@@ -19,7 +19,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             2: (":/ejercicios/kaldo.jpg", ["Grinch azul", "Meme", "chango"]),
             3: (":/ejercicios/wero.jpg", ["Bob Esponja", "Meme", "esponja"])
         }
-
         self.indice = 1
         self.obtenerDatos()
 
@@ -31,13 +30,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.txt_nombreimagen.setText(nombre)
         self.txt_contextoimagen.setText(contexto)
         self.txt_numero.setText(numero)
-
         self.imagen_Desc.setPixmap(QtGui.QPixmap(self.diccionarioDatos[self.indice][0]))
 
     def cambiaValor(self):
         self.indice = self.SelectorImagen.value()
         self.obtenerDatos()
-
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

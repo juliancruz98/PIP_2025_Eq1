@@ -15,6 +15,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.horizontalSlider.setValue(-50)
 
 
+
     #Area de los slots
 
     def cambiaValor(self):

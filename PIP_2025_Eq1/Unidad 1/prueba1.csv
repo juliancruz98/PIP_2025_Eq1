@@ -1,16 +1,16 @@
 Valores:
-4
-9
 12
-15
-15
 18
-22
+25
+25
 30
-Promedio: 15.62
-Menor Valor: 4
-Mayor Valor: 30
-Mediana: 15.0
-Moda: [15]
-Varianza: 55.73
-Desviación Estándar: 7.47
+35
+40
+40
+Promedio: 28.12
+Menor Valor: 12
+Mayor Valor: 40
+Mediana: 27.5
+Moda: [25, 40]
+Varianza: 89.36
+Desviación Estándar: 9.45
