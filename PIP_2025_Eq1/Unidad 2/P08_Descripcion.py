@@ -9,15 +9,15 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         #Area de los signals
         self.SelectorImagen.valueChanged.connect(self.cambiaValor)
-        self.SelectorImagen.setMinimum(1)
-        self.SelectorImagen.setMaximum(1)
+        self.SelectorImagen.setMinimum(0)
+        self.SelectorImagen.setMaximum(2)
         self.SelectorImagen.setSingleStep(1)
-        self.SelectorImagen.setValue(1)
+        self.SelectorImagen.setValue(0)
 
         self.diccionarDatos = {
-            0: (":/ejercicios/elyochi.jpg",["MetalSonic","Meme","Erizo"]),
-            1: (":/ejercicios/kaldo.jpg", ["grinchazul", "Meme", "chango"]),
-            2: (":/ejercicios/wero.jpg", ["bobesponja", "Meme", "esponja"])
+            0: (":/ejercicios/elyochi.jpg",["MetalSonic","juego","Erizo"]),
+            1: (":/ejercicios/kaldo.jpg", ["grinchazul", "pelicula", "chango"]),
+            2: (":/ejercicios/wero.jpg", ["bobesponja", "caricatura", "esponja"])
         }
 
         self.indice = 0
@@ -31,12 +31,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.txt_NombreIma.setText(nombre)
         self.txt_ContexIma.setText(contexto)
         self.txt_N.setText(numero)
-        print(nombre)
-        print(contexto)
-        print(numero)
+        print(nombre, contexto, numero)
 
     def cambiaValor(self):
-        value = self.SelectorImagen.value()
+        self.indice = self.SelectorImagen.value()
+        self.obtenerDatos()
 
 
 

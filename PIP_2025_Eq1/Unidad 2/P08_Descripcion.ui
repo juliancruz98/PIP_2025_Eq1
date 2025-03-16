@@ -6,16 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1116</width>
-    <height>810</height>
+    <width>818</width>
+    <height>667</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-background-color: rgb(29, 183, 230);</string>
+   <string notr="true">background-color: rgb(255, 170, 0);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="imagen">
@@ -23,8 +22,8 @@ background-color: rgb(29, 183, 230);</string>
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>191</width>
-      <height>161</height>
+      <width>141</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -34,7 +33,7 @@ background-color: rgb(29, 183, 230);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/elyochi.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -43,8 +42,8 @@ background-color: rgb(29, 183, 230);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>190</y>
+      <x>230</x>
+      <y>130</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -63,8 +62,8 @@ background-color: rgb(29, 183, 230);</string>
    <widget class="QLineEdit" name="txt_NombreIma">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>240</y>
+      <x>230</x>
+      <y>160</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -76,12 +75,13 @@ background-color: rgb(29, 183, 230);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 5px;
+     <string notr="true">border-radius: 10px;
 background-color: rgb(255, 255, 255);
+border:  5px solid black;
 </string>
     </property>
     <property name="text">
-     <string>mm</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -90,8 +90,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QSlider" name="SelectorImagen">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>590</y>
+      <x>30</x>
+      <y>450</y>
       <width>251</width>
       <height>91</height>
      </rect>
@@ -103,10 +103,10 @@ background-color: rgb(255, 255, 255);
    <widget class="QLabel" name="imgane_Desc">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>260</y>
-      <width>301</width>
-      <height>281</height>
+      <x>20</x>
+      <y>170</y>
+      <width>181</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -125,8 +125,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QLineEdit" name="txt_ContexIma">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>360</y>
+      <x>230</x>
+      <y>280</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -138,12 +138,13 @@ background-color: rgb(255, 255, 255);
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 5px;
+     <string notr="true">border-radius: 10px;
 background-color: rgb(255, 255, 255);
+border:  5px solid black;
 </string>
     </property>
     <property name="text">
-     <string>mm</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -152,8 +153,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>310</y>
+      <x>240</x>
+      <y>230</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -172,8 +173,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QLineEdit" name="txt_N">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>480</y>
+      <x>230</x>
+      <y>380</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -185,12 +186,13 @@ background-color: rgb(255, 255, 255);
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 5px;
+     <string notr="true">border-radius: 10px;
 background-color: rgb(255, 255, 255);
+border:  5px solid black;
 </string>
     </property>
     <property name="text">
-     <string>mm</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -199,8 +201,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>430</y>
+      <x>240</x>
+      <y>340</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -219,10 +221,10 @@ background-color: rgb(255, 255, 255);
    <widget class="QLabel" name="imagen_2">
     <property name="geometry">
      <rect>
-      <x>830</x>
-      <y>30</y>
-      <width>191</width>
-      <height>161</height>
+      <x>570</x>
+      <y>20</y>
+      <width>211</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -232,7 +234,7 @@ background-color: rgb(255, 255, 255);
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -241,8 +243,8 @@ background-color: rgb(255, 255, 255);
    <widget class="QLabel" name="imagen_3">
     <property name="geometry">
      <rect>
-      <x>830</x>
-      <y>460</y>
+      <x>580</x>
+      <y>420</y>
       <width>191</width>
       <height>161</height>
      </rect>
@@ -260,13 +262,24 @@ background-color: rgb(255, 255, 255);
      <bool>true</bool>
     </property>
    </widget>
+   <zorder>imagen</zorder>
+   <zorder>label</zorder>
+   <zorder>txt_NombreIma</zorder>
+   <zorder>imgane_Desc</zorder>
+   <zorder>txt_ContexIma</zorder>
+   <zorder>label_2</zorder>
+   <zorder>txt_N</zorder>
+   <zorder>label_3</zorder>
+   <zorder>imagen_2</zorder>
+   <zorder>imagen_3</zorder>
+   <zorder>SelectorImagen</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1116</width>
+     <width>818</width>
      <height>26</height>
     </rect>
    </property>
