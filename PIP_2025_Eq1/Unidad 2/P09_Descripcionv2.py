@@ -15,9 +15,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.SelectorImagen.valueChanged.connect(self.cambiaValor)
 
         self.diccionarioDatos = {
-            1: (":/ejercicios/elyochi.jpg",["Metal Sonic","Meme","Erizo"]),
-            2: (":/ejercicios/kaldo.jpg", ["Grinch azul", "Meme", "chango"]),
-            3: (":/ejercicios/wero.jpg", ["Bob Esponja", "Meme", "esponja"])
+            1: (":/ejercicios/elyochi.jpg",["Metal Sonic","Meme","1"]),
+            2: (":/ejercicios/kaldo.jpg", ["Grinch azul", "Meme", "2"]),
+            3: (":/ejercicios/wero.jpg", ["Bob Esponja", "Meme", "3"])
         }
         self.indice = 1
         self.obtenerDatos()

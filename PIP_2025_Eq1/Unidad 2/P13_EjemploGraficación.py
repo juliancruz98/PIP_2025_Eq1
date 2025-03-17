@@ -14,4 +14,3 @@ from matplotlib import pyplot as plt
 plt.plot(x,y, marker="x",linestyle ="--" ,color = "#42CC99")
 plt.show()
 
-#PRACTICA 4 = Probar otras maneras de personalizar el diseño de las graficas con mathplotlib

@@ -1,5 +1,4 @@
 import sys
-import time as t
 from PyQt5 import uic, QtWidgets,QtCore,QtGui
 qtCreatorFile = "P11_RadiusButton.ui" #Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)

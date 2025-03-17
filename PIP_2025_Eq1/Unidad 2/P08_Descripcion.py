@@ -15,9 +15,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.SelectorImagen.setValue(0)
 
         self.diccionarDatos = {
-            0: (":/ejercicios/elyochi.jpg",["MetalSonic","juego","Erizo"]),
-            1: (":/ejercicios/kaldo.jpg", ["grinchazul", "pelicula", "chango"]),
-            2: (":/ejercicios/wero.jpg", ["bobesponja", "caricatura", "esponja"])
+            0: (":/ejercicios/elyochi.jpg",["MetalSonic","juego","1"]),
+            1: (":/ejercicios/kaldo.jpg", ["grinchazul", "pelicula", "2"]),
+            2: (":/ejercicios/wero.jpg", ["bobesponja", "caricatura", "3"])
         }
 
         self.indice = 0

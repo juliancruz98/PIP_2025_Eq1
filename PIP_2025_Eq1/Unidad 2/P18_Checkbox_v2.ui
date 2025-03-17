@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1086</width>
-    <height>852</height>
+    <width>726</width>
+    <height>633</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,8 @@ background-color: rgb(29, 183, 230);</string>
      <rect>
       <x>10</x>
       <y>20</y>
-      <width>191</width>
-      <height>161</height>
+      <width>151</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -34,7 +34,7 @@ background-color: rgb(29, 183, 230);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/elyochi.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -63,8 +63,8 @@ background-color: rgb(29, 183, 230);</string>
    <widget class="QLineEdit" name="txt_temporizador">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>590</y>
+      <x>30</x>
+      <y>510</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -93,8 +93,8 @@ border:  5px solid black;
      <rect>
       <x>280</x>
       <y>30</y>
-      <width>191</width>
-      <height>161</height>
+      <width>201</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -104,7 +104,7 @@ border:  5px solid black;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -113,17 +113,17 @@ border:  5px solid black;
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>200</y>
-      <width>421</width>
-      <height>341</height>
+      <x>480</x>
+      <y>290</y>
+      <width>231</width>
+      <height>191</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/samsgoku.jpeg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/wero.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -236,7 +236,7 @@ border:  5px solid black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1086</width>
+     <width>726</width>
      <height>26</height>
     </rect>
    </property>

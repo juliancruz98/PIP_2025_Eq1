@@ -6,16 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1086</width>
-    <height>852</height>
+    <width>711</width>
+    <height>536</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">
-background-color: rgb(29, 183, 230);</string>
+   <string notr="true">background-color: rgb(255, 170, 255);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="imagen">
@@ -34,7 +33,7 @@ background-color: rgb(29, 183, 230);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/elyochi.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -60,41 +59,13 @@ background-color: rgb(29, 183, 230);</string>
      <string>MASCOTA FAVORITA</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="txt_temporizador">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>520</y>
-      <width>321</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:20px;
-border:  5px solid black;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
    <widget class="QLabel" name="imagen_2">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>0</y>
-      <width>191</width>
-      <height>161</height>
+      <x>370</x>
+      <y>30</y>
+      <width>221</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -104,7 +75,7 @@ border:  5px solid black;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -113,8 +84,8 @@ border:  5px solid black;
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>0</y>
+      <x>470</x>
+      <y>260</y>
       <width>201</width>
       <height>201</height>
      </rect>
@@ -123,7 +94,7 @@ border:  5px solid black;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/samsgoku.jpeg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/wero.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -147,6 +118,9 @@ border:  5px solid black;
     </property>
     <property name="text">
      <string>COLOR FAVORITO:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QRadioButton" name="rb_negro">
@@ -233,7 +207,7 @@ border:  5px solid black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1086</width>
+     <width>711</width>
      <height>26</height>
     </rect>
    </property>
