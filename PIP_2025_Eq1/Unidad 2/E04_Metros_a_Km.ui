@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1116</width>
-    <height>810</height>
+    <width>838</width>
+    <height>487</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,8 +22,8 @@
      <rect>
       <x>50</x>
       <y>30</y>
-      <width>221</width>
-      <height>181</height>
+      <width>151</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -33,7 +33,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/elyochi.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -42,10 +42,10 @@
    <widget class="QLabel" name="imagen_3">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>480</y>
-      <width>251</width>
-      <height>221</height>
+      <x>620</x>
+      <y>260</y>
+      <width>151</width>
+      <height>161</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -64,8 +64,8 @@
    <widget class="QDial" name="dial">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>310</y>
+      <x>10</x>
+      <y>190</y>
       <width>241</width>
       <height>281</height>
      </rect>
@@ -78,8 +78,8 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>280</y>
+      <x>290</x>
+      <y>180</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -101,8 +101,8 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLineEdit" name="txt_metros">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>330</y>
+      <x>260</x>
+      <y>230</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -130,17 +130,17 @@ border:  5px solid black;
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>30</y>
-      <width>221</width>
-      <height>171</height>
+      <x>570</x>
+      <y>20</y>
+      <width>251</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/kaldo.jpg</pixmap>
+     <pixmap resource="../Archivos/Recursos.qrc">:/ejercicios/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -149,8 +149,8 @@ border:  5px solid black;
    <widget class="QLineEdit" name="txt_kms">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>460</y>
+      <x>260</x>
+      <y>360</y>
       <width>321</width>
       <height>51</height>
      </rect>
@@ -178,8 +178,8 @@ border:  5px solid black;
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>410</y>
+      <x>270</x>
+      <y>310</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -204,7 +204,7 @@ border:  5px solid black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1116</width>
+     <width>838</width>
      <height>26</height>
     </rect>
    </property>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>651</width>
-    <height>648</height>
+    <width>654</width>
+    <height>551</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -58,34 +58,6 @@ background-color: rgb(29, 183, 230);</string>
     </property>
     <property name="text">
      <string>Pasatiempos:</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="txt_temporizador">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>540</y>
-      <width>321</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-radius:20px;
-border:  5px solid black;
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="imagen_2">
@@ -236,7 +208,7 @@ border:  5px solid black;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>651</width>
+     <width>654</width>
      <height>26</height>
     </rect>
    </property>

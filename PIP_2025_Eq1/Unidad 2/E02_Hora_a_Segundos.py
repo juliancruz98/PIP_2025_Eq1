@@ -1,6 +1,7 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "E03_Mililitros_a_Litros.ui" #Nombre del archivo aquí.
+qtCreatorFile = "E02_Hora_a_Segundos.ui" #Nombre del archivo aquí.
+
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -10,17 +11,19 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         #Area de los signals
         self.dial.valueChanged.connect(self.cambiaValor)
         self.dial.setMinimum(1)
-        self.dial.setMaximum(10000)
+        self.dial.setMaximum(200)
         self.dial.setSingleStep(5)
         self.dial.setValue(1)
         self.dial.setWrapping(True)
 
     #Area de los slots
     def cambiaValor(self):
-        mililitros = self.dial.value()
-        litros = mililitros / 1000
-        self.txt_mililitros.setText(str(mililitros))
-        self.txt_litros.setText(str(round(litros, 3)))
+        horas = self.dial.value()
+        segundos = horas * 3600
+        self.txt_hrs.setText(str(horas))
+        self.txt_sgns.setText(str(segundos))
+
+
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

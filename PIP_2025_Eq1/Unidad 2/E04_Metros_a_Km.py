@@ -9,10 +9,10 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         #Area de los signals
         self.dial.valueChanged.connect(self.cambiaValor)
-        self.dial.setMinimum(-2000)
+        self.dial.setMinimum(1)
         self.dial.setMaximum(2000)
         self.dial.setSingleStep(5)
-        self.dial.setValue(0)
+        self.dial.setValue(1)
         self.dial.setWrapping(True)
 
     #Area de los slots
