@@ -121,7 +121,7 @@ border:  5px solid black;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../Archivos/Recursos.qrc">:/ejercicios/cat.jpeg</pixmap>
+     <pixmap resource="../../Archivos/Recursos.qrc">:/ejercicios/FIT_logo_vertical.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -140,7 +140,7 @@ border:  5px solid black;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../../Archivos/Recursos.qrc">:/ejercicios/duolingo.jpeg</pixmap>
+     <pixmap resource="../../Archivos/Recursos.qrc">:/ejercicios/log_uat_nuevo.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

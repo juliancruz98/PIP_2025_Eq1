@@ -1,5 +1,4 @@
 import sys
-import time as t
 from PyQt5 import uic, QtWidgets, QtCore, QtGui
 
 qtCreatorFile = "PP01.ui"  # Nombre del archivo aquí.
@@ -12,10 +11,10 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         # Lista de imágenes para cambiar
-        self.imagenes = [":/ejercicios/cat.jpeg", ":/ejercicios/duolingo.jpeg", ":/ejercicios/elyochi.jpg", ":/ejercicios/hermanosgold.jpeg", ":/ejercicios/kaldo.jpg"]  # Cambia con tus imágenes
+        self.imagenes = [":/ejercicios/cat.jpeg", ":/ejercicios/duolingo.jpeg",
+                         ":/ejercicios/elyochi.jpg", ":/ejercicios/hermanosgold.jpeg", ":/ejercicios/kaldo.jpg"]
         self.indice_imagen = 0  # Índice actual de la imagen
 
-        # Configurar QLabel con la primera imagen
         self.lbl_imagen.setPixmap(QtGui.QPixmap(self.imagenes[self.indice_imagen]))
 
         # Configurar el temporizador

@@ -1,6 +1,13 @@
 <RCC>
   <qresource prefix="logos"/>
   <qresource prefix="ejercicios">
+    <file>Atras.jpg</file>
+    <file>amarillo.jpg</file>
+    <file>rojo.jpg</file>
+    <file>verde.jpg</file>
+    <file>Papel.jpg</file>
+    <file>Piedra.jpg</file>
+    <file>Tijeras.jpg</file>
     <file>FIT_logo_vertical.png</file>
     <file>log_uat_nuevo.png</file>
     <file>cero.jpg</file>
