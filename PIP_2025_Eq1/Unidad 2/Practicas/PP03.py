@@ -17,6 +17,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.btn_enviar.clicked.connect(self.verificar_respuesta)
         self.btn_reiniciar.clicked.connect(self.reiniciar_juego)
 
+    #Area de los signals
     def generar_numero_secreto(self):
         numeros = list(range(10))
         random.shuffle(numeros)
@@ -36,11 +37,10 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         picas, fijas = self.calcular_picas_y_fijas(respuesta)
         self.lbl_resultado.setText(f"Picas: {picas}, Fijas: {fijas}")
 
-        # Guardar el intento y actualizar txt_enviados
         intento = f"{respuesta} - Picas: {picas}, Fijas: {fijas}"
         self.intentos.append(intento)
 
-        # Imprimir el intento en consola
+        # Imprimimos el intento en la consola
         print(self.intentos[-1])
 
         if isinstance(self.txt_enviados, QtWidgets.QTextEdit):
@@ -56,7 +56,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         fijas = 0
 
         for i in range(4):
-            if int(respuesta[i]) == self.numero_secreto[i]:  # Coincide el número y la posición
+            if int(respuesta[i]) == self.numero_secreto[i]:
                 fijas += 1
 
         for i in range(4):

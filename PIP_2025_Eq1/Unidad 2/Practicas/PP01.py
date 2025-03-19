@@ -9,7 +9,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         QtWidgets.QMainWindow.__init__(self)
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
-
+        #Area de los signals
         # Lista de imágenes para cambiar
         self.imagenes = [":/ejercicios/cat.jpeg", ":/ejercicios/duolingo.jpeg",
                          ":/ejercicios/elyochi.jpg", ":/ejercicios/hermanosgold.jpeg", ":/ejercicios/kaldo.jpg"]
@@ -20,8 +20,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         # Configurar el temporizador
         self.segundoPlano = QtCore.QTimer()
         self.segundoPlano.timeout.connect(self.cambiarImagen)
-        self.segundoPlano.start(500)  # Cambia la imagen cada 2 segundos
+        self.segundoPlano.start(500)  # Cambia la imagen cada 3 segundos
 
+    #Area de los slots
     def cambiarImagen(self):
         self.indice_imagen = (self.indice_imagen + 1) % len(self.imagenes)  # Ciclo de imágenes
         self.lbl_imagen.setPixmap(QtGui.QPixmap(self.imagenes[self.indice_imagen]))
