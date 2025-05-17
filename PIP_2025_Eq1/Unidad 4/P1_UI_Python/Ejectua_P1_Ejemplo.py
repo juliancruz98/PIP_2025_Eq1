@@ -1,3 +1,5 @@
+#este si va ejecuta p1 ejemplo
+
 import sys
 from PyQt5 import uic, QtWidgets
 # qtCreatorFile = "P04_SumaDosNumeros.ui" #Nombre del archivo aquí.
