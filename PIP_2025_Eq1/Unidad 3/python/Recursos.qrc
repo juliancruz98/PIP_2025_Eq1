@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="logos"/>
+  <qresource prefix="ejercicios">
+    <file>Atras.jpg</file>
+    <file>amarillo.jpg</file>
+    <file>rojo.jpg</file>
+    <file>verde.jpg</file>
+    <file>Papel.jpg</file>
+    <file>Piedra.jpg</file>
+    <file>Tijeras.jpg</file>
+    <file>FIT_logo_vertical.png</file>
+    <file>log_uat_nuevo.png</file>
+    <file>cero.jpg</file>
+    <file>uno.jpg</file>
+    <file>duolingo.jpeg</file>
+    <file>sonicblanco.jpeg</file>
+    <file>cat.jpeg</file>
+    <file>hermanosgold.jpeg</file>
+    <file>mariogold.jpeg</file>
+    <file>samsgoku.jpeg</file>
+    <file>sams.jpeg</file>
+    <file>kaldo.jpg</file>
+    <file>wero.jpg</file>
+    <file>elyochi.jpg</file>
+  </qresource>
+</RCC>
